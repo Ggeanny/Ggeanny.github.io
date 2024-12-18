@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+iframe{
+ top: -200px;
+    width: 700px;
+    }
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 45px;
+}
+
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header {
+
+    background-image: url();
+    background-size: 1400px;
+    width:1400px;
+    height: 1400px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #185f8be8;
+    color: #fff;
+    height: 400px;
+    pointer-events: absolute;
+
+
+}
+
+ul li {
+
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(27, 76, 211);
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin:  10px 0;
+    flex-wrap: wrap;
+
+}
+
+.menu-elem{
+    list-style: none;
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover{
+    opacity: 1;
+}
+.text{ 
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+
+.content{
+    text-align: center;
+}
+
+
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(2, 32, 114);
+    font-size: 24px;
+    border: 2px solid rgb(38, 53, 182);
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 450px;
+    transition: all 400ms ease;
+}
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    background: #347acb;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    transform: translateY(-10px);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin:  10px 0;
+    flex-wrap: wrap;
+
+}
+
+.menu-elem{
+    list-style: none;
+}
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover{
+    opacity: 1;
+}
+.text{ 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 45px;
+}
+
+header {
+
+    background-image: url(o.webp);
+    background-size: 1400px;
+    width:1400px;
+    height: 1347px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+footer{
+    background-color: #25528aec;
+    color: #ffffff;
+    height: 400px;
+    pointer-events: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+ul li {
+
+    display: inline-block;
+    padding: 20px;
+    
+}
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #3472a8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+a {
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(1, 77, 139);
+}
+
+body{
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    height: 100vh;
+}
+
+
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #11caeb;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+
+ div .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+.text-box {
+    top: 151%;
+    left: 20%;
+    position: absolute;
+    width: 80%;
+    max-width: 890px;
+    padding: 30px;
+    border: 2px solid #f0ece8;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18); 
+    text-align: center; 
+    color: #333;
+    line-height: 1.8;
+    
+}
+
+.text-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #52463c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text-box p {
+    font-size: 16px;
+    margin: 0;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #89a1ba;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
